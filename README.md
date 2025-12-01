@@ -25,4 +25,50 @@ This project is a **desktop application built in Java using Swing** to manage gy
 
 ---
 
+
 ## 📂 Project Structure
+GymManagementSystem.java → Main application with UI & logic
+Member → (Inner class for member data)
+Trainer → (Inner class for trainer data)
+MembershipPlan → (Inner class for plan data)
+Product → (Inner class for product data)
+
+yaml
+Copy code
+
+> ⚠ Note: This project uses in-memory lists (`ArrayList`) instead of a database. Data resets when the app is restarted.
+
+---
+
+## ▶️ How to Run
+1. Install **Java JDK (8 or higher)**
+2. Open the folder in **VS Code / IntelliJ / Eclipse**
+3. Compile and run the file:
+
+```sh
+javac GymManagementSystem.java
+java GymManagementSystem
+Or simply press Run ▶ if using an IDE.
+
+📸 Screens (UI Pages Included)
+Welcome Dashboard
+
+Member Registration
+
+Trainer Selection
+
+Plan Selection
+
+Product Purchase
+
+Payment & Invoice
+
+🔮 Future Improvements (Optional Enhancements)
+🔹 Database integration (MySQL/Firebase)
+🔹 Export invoice PDF
+🔹 Login system for admin and staff
+🔹 Report and analytics dashboard
+
+🤝 Contributing
+Pull requests and suggestions are welcome!
+If you have ideas to improve or extend the system, feel free to contribute.
